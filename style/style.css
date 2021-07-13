@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+
+#wrap {
+    margin: 0 auto;
+    width: 1300px;
+    text-align: center;
+    color: #333;
+}
+
+
+#wrap h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+nav#gnb {
+    /*border: 1px solid #000;*/
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 25px;
+}
+
+#mainMenu {
+    justify-content: center;
+}
+
+.mainLi {
+    border-right: 1px solid #888;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.mainLi:last-child {
+    border: none;
+}
+
+#gnb a:hover {
+    font-weight: bold;
+    color: #111;
+}
+
+#left {
+    margin-top: 30px;
+}
+
+#mainimg {
+    /*border: 1px solid #000;*/
+    width: 445px;
+    height: 680px;
+
+    background-image: url(../images/list_01_390x600.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    cursor: pointer;
+}
+
+#right {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#imgbox {
+    /*border: 1px solid #000;*/
+    width: 250px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#imgbox > img {
+    width: 250px;
+    height: 250px;
+    padding-bottom: 10px;
+}
+
+
+
+#headtext {
+    font-weight: bold;
+    color: #d99222;
+}
+
+#imgbox h2 {
+    padding-top: 5px;
+    color: #209dad;
+    margin-bottom: 15px;
+}
+
+#imgbox h2 > span {
+    font-size: 20px;
+    color: #209dad;
+
+}
+
+
+div#layerBG {
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid #f80;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    /*  background-color: rgba(0, 0, 0, 0.0);*/
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: none;
+}
+
+div#layerGoods2, div#layerGoods3, div#layerGoods4, div#layerGoods5, div#layerGoods6 {
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid #f80;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    /*  background-color: rgba(0, 0, 0, 0.0);*/
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: none
+}
+
+div#layerPopup {
+    width: 500px;
+    border: 4px solid #aaa;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#layerPopup div#btnArea {
+    text-align: right;
+    /*border: 1px solid #000;*/
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+#layerPopup button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 12px;
+}
+
+#layerPopup img {
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+#layerPopup h2 {
+    padding-top: 5px;
+    color: #209dad;
+    margin-bottom: 15px;
+}
+
+#layerPopup h2 > span {
+    font-size: 20px;
+    color: #209dad;
+}
